@@ -13,9 +13,19 @@ I have done the first one for you, as an example.
 | $f(n)=\ldots$              | compared to | $g(n)=\ldots$          |
 |----------------------------|:-----------:|------------------------|
 | $f(n)=n$                   | 1           | $g(n)=2n^2 + n$        |
-| $f(n)= 10n + 3\log_{15} n$ |             | $g(n)= 4n - 2\log_2 n$ |
-| $f(n) = 2n^5$              |             | $g(n) = 5n^2$          |
-| $f(n)=\log_{10} \left(n^{10}\right)$ |  | $g(n)=n$ |
-| $f(n)= 4n^5 $ |  | $g(n)= 5n^4$ |
-| $f(n) = 10^{256}$ |  | $g(n) = \log n$ |
-| $f(n)= n^2 $ |  | $g(n)= 2^n$ |
+| $f(n)= 10n + 3\log_{15} n$ | 4            | $g(n)= 4n - 2\log_2 n$ |
+| $f(n) = 2n^5$              | 2            | $g(n) = 5n^2$          |
+| $f(n)=\log_{10} \left(n^{10}\right)$ | 1 | $g(n)=n$ |
+| $f(n)= 4n^5 $ | 2 | $g(n)= 5n^4$ |
+| $f(n) = 10^{256}$ | 3 | $g(n) = \log n$ |
+| $f(n)= n^2 $ | 1 | $g(n)= 2^n$ |
+
+1) n grows at most as fast as n<sup>2</sup>, but not at least as fast, therefore $f(n)\in O(g(n))$, but $f(n)\not \in \Omega(g(n))$
+2) n grows at most as fast as n, and at least as fast, therefore $f(n)\in \Theta (g(n))$
+3) n<sup>5</sup> grows at least as fast as n<sup>2</sup>, but not at most as fast, therefore $f(n)\in \Omega(g(n))$, but $f(n)\not \in O(g(n))$
+4) log(n) grows at most as fast as n, but not at least as fast, therefore $f(n)\in O(g(n))$, but $f(n)\not \in \Omega(g(n))$
+5) n<sup>5</sup> grows at least as fast as n<sup>4</sup>, but not at most as fast, therefore $f(n)\in \Omega(g(n))$, but $f(n)\not \in O(g(n))$
+6) f(n) does not grow, and is thus not asymptotically comparable to log(n), therefore $f(n)\not\in O(g(n))$, and $f(n)\not \in \Omega(g(n))$
+7) n<sup>2</sup> grows at most as fast as 2<sup>n</sup>, but not at least as fast, therefore $f(n)\in O(g(n))$, but $f(n)\not \in \Omega(g(n))$
+
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
