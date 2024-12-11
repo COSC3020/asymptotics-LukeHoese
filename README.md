@@ -20,9 +20,9 @@ I have done the first one for you, as an example.
 | $f(n) = 10^{256}$ | 3 | $g(n) = \log n$ |
 | $f(n)= n^2 $ | 1 | $g(n)= 2^n$ |
 
-1) f(n) grows at most as fast as g(n), but not at least as fast, therefore $f(n)\in O(g(n))$, but $f(n)\not \in \Omega(g(n))$
-2) f(n) grows at most as fast as g(n), at least as fast, therefore $f(n)\in \Theta (g(n))$
-3) f(n) grows at least as fast as g(n), but not at most as fast, therefore $f(n)\in \Omega(g(n))$, but $f(n)\not \in O(g(n))$
+1) n grows at most as fast as n<sup>2</sup>, but not at least as fast, therefore $f(n)\in O(g(n))$, but $f(n)\not \in \Omega(g(n))$
+2) n/log(n) grows at most as fast as n/log(n), at least as fast, therefore $f(n)\in \Theta (g(n))$
+3) n<sup>5</sup> grows at least as fast as n<sup>2</sup>, but not at most as fast, therefore $f(n)\in \Omega(g(n))$, but $f(n)\not \in O(g(n))$
 4) f(n) grows at most as fast as g(n), but not at least as fast, therefore $f(n)\in O(g(n))$, but $f(n)\not \in \Omega(g(n))$
 5) f(n) grows at least as fast as g(n), but not at most as fast, therefore $f(n)\in \Omega(g(n))$, but $f(n)\not \in O(g(n))$
 6) f(n) does not grow, and is thus not asymptotically comparable to g(n), therefore $f(n)\not\in O(g(n))$, and $f(n)\not \in \Omega(g(n))$
