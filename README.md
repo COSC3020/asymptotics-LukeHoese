@@ -21,7 +21,7 @@ I have done the first one for you, as an example.
 | $f(n)= n^2 $ | 1 | $g(n)= 2^n$ |
 
 1) n grows at most as fast as n<sup>2</sup>, but not at least as fast, therefore $f(n)\in O(g(n))$, but $f(n)\not \in \Omega(g(n))$
-2) n grows at most as fast as n, at least as fast, therefore $f(n)\in \Theta (g(n))$
+2) n grows at most as fast as n, and at least as fast, therefore $f(n)\in \Theta (g(n))$
 3) n<sup>5</sup> grows at least as fast as n<sup>2</sup>, but not at most as fast, therefore $f(n)\in \Omega(g(n))$, but $f(n)\not \in O(g(n))$
 4) log(n) grows at most as fast as n, but not at least as fast, therefore $f(n)\in O(g(n))$, but $f(n)\not \in \Omega(g(n))$
 5) n<sup>5</sup> grows at least as fast as n<sup>4</sup>, but not at most as fast, therefore $f(n)\in \Omega(g(n))$, but $f(n)\not \in O(g(n))$
