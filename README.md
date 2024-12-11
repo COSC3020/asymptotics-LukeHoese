@@ -23,7 +23,7 @@ I have done the first one for you, as an example.
 1) n grows at most as fast as n<sup>2</sup>, but not at least as fast, therefore $f(n)\in O(g(n))$, but $f(n)\not \in \Omega(g(n))$
 2) n/log(n) grows at most as fast as n/log(n), at least as fast, therefore $f(n)\in \Theta (g(n))$
 3) n<sup>5</sup> grows at least as fast as n<sup>2</sup>, but not at most as fast, therefore $f(n)\in \Omega(g(n))$, but $f(n)\not \in O(g(n))$
-4) f(n) grows at most as fast as g(n), but not at least as fast, therefore $f(n)\in O(g(n))$, but $f(n)\not \in \Omega(g(n))$
-5) f(n) grows at least as fast as g(n), but not at most as fast, therefore $f(n)\in \Omega(g(n))$, but $f(n)\not \in O(g(n))$
-6) f(n) does not grow, and is thus not asymptotically comparable to g(n), therefore $f(n)\not\in O(g(n))$, and $f(n)\not \in \Omega(g(n))$
-7) f(n) grows at most as fast as g(n), but not at least as fast, therefore $f(n)\in O(g(n))$, but $f(n)\not \in \Omega(g(n))$
+4) log(n) grows at most as fast as n, but not at least as fast, therefore $f(n)\in O(g(n))$, but $f(n)\not \in \Omega(g(n))$
+5) n<sup>5</sup> grows at least as fast as n<sup>4</sup>, but not at most as fast, therefore $f(n)\in \Omega(g(n))$, but $f(n)\not \in O(g(n))$
+6) f(n) does not grow, and is thus not asymptotically comparable to log(n), therefore $f(n)\not\in O(g(n))$, and $f(n)\not \in \Omega(g(n))$
+7) n<sup>2</sup> grows at most as fast as 2<sup>n</sup>, but not at least as fast, therefore $f(n)\in O(g(n))$, but $f(n)\not \in \Omega(g(n))$
